@@ -1,0 +1,271 @@
+*
+{
+	margin : 0;
+	padding : 0;
+}
+body
+{
+	width: 100%;
+	height: auto;;
+    font: normal 0.8em 'trebuchet ms', arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  footer {
+	margin-top: auto;
+  }
+#index
+{
+    background-color: #323534;
+	border: 10px solid white;
+}
+#index-header
+{
+	padding: 30px 10px;
+	overflow: no-content;
+	min-width: 400px;
+}
+div#index-header div {
+	display: inline-block;
+	/* padding: 1% 0;
+	margin: 0 2%; */
+	font-size: 2em;
+	border:#d3d3d3 2px;
+}
+#logo
+{
+    width: 45%;
+    text-align: left;
+    padding: 0% 4%;
+	font: normal 3.0em 'trebuchet ms', arial, sans-serif !important;
+	color: #73AD21;
+}
+#logo a, a:visited #logo-link
+{
+    font: normal 1em 'trebuchet ms', arial, sans-serif !important;
+    color: #73AD21;
+	margin-left: 0% !important;
+}
+#header-menu {
+	width: 42%;
+	text-align:right; 
+}
+#header-links
+{
+	color: #73AD21;
+    padding: 3%;
+}
+a, a:visited #header-links
+{
+	font: normal .8em 'trebuchet ms', arial, sans-serif !important;
+	text-decoration: none;
+	padding:2% 2%;
+	color: #73AD21;
+}
+a, a:visited #shop-here-link
+{
+	text-decoration: none;
+	margin-left: 3%;
+	font: normal 1.2em 'trebuchet ms', arial, sans-serif !important;
+	color: #73AD21;
+}
+#main-content
+{
+	text-align:left;
+	padding:12%;
+	color: #73AD21;
+}
+#main-content p
+{
+	font: bold 3.0em 'trebuchet ms', arial, sans-serif;
+}
+#main-sub-content
+{
+	padding:2%;
+	color:#555 !important;
+	font: italic 1.5em 'trebuchet ms', arial, sans-serif !important;
+}
+#footer-content
+{
+	background-color: #323534;
+	border: 10px solid white;
+	padding:3%;
+	margin-top: auto;
+}
+#f-content
+{
+	color:#73AD21;
+	font: bold 14px 'trebuchet ms', arial, sans-serif !important;
+}
+.footer-buckleup
+{
+	color:#73AD21;
+	font: bold 14px 'trebuchet ms', arial, sans-serif !important;
+	margin-right:2%;
+	
+}
+#trades-content
+{
+	text-align:left;
+	margin:6%;
+	color:#555;
+	 margin-bottom:auto;
+	height: auto;
+}
+.content-headings
+{
+	margin-left:2% !important;
+	margin-bottom:3% !important;
+}
+.trades-main-content
+{
+	margin-bottom:2%;
+}
+.trades-menu li
+{
+	padding:1%;
+	list-style-type: none;
+	color:bisque;
+}
+#shoeinfo-para
+{
+	width: 100%;
+    height: auto;
+    display: table;
+	margin-top: 12px;
+}
+#image-style
+{
+	float: left;
+	margin-right: 10px;
+}
+#shoe-content
+{
+	color: #555;
+    font-size: 13px;
+    line-height: 20px;
+    width: 50%;
+}
+.shoes-size
+{
+	margin-left:150px;
+}
+#addtocart
+{
+	width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #73AD21;
+	margin-left:150px;
+	margin-top: 22px;
+	cursor:pointer;
+}
+#price-style
+{
+	font: bold 1.5em 'trebuchet ms', arial, sans-serif;
+	color: #555;
+	margin-left:150px;
+	margin-bottom: 10px;
+}
+#newtrade-content
+{
+	text-align:left;
+	margin:6%;
+	color:#73AD21;
+}
+#newtrade-content p
+{
+	font:bold 2em 'trebuchet ms', arial, sans-serif;
+}
+#newtrade-details
+{
+
+}
+.form-label
+{
+	color: #555;
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    font: normal 1.2em 'trebuchet ms', arial, sans-serif;
+	margin-top:2%;
+}
+.drop-down
+{
+	color: #555;
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    font: normal 1em 'trebuchet ms', arial, sans-serif;
+	margin-top:2%;
+}
+#description
+{
+	width: 23%;
+    height: 135px;
+    box-sizing: border-box;
+    font-family: 'century gothic', arial, sans-serif;
+    font-weight: normal;
+    color:#555;
+    border: 1px solid #000;
+	margin-top:2%;
+}
+.price-tab
+{
+	color: #555;
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    font: normal 1em 'trebuchet ms', arial, sans-serif;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+#submit-style
+{
+	width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #73AD21;
+	margin-left:150px;
+	margin-top: 22px;
+	cursor:pointer;
+}
+.card{
+    /* width:25%;
+    margin-right: 2%;
+    height:330px; */
+    box-shadow: 5px 10px 15px gray;
+    float:left; 
+	width: 250px;
+    height: 350px;
+    background: white;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    float: left;
+    margin-right: 2%;
+	margin-bottom:3%;
+}
+
+.card > img{
+    height:150px;
+    width:100%;
+	float:left;
+}
+.productdata
+{
+	padding:4%;
+
+} 
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
