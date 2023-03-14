@@ -1,0 +1,24 @@
+<%-include('../partials/header.ejs')%>
+<div id="newtrade-content">
+    <p>Welcome to Buckle Up Family!</p>
+    <form action="/products" method='POST'>
+    <div id="newtrade-details">
+        <br>
+        <label class="form-label">Title</label>
+        <input class="price-tab" id="title" name="title" type="text">
+        <br>
+        <label class="form-label">Product description</label>
+        <textarea id="product_description" name="product_description" rows="10" cols="33"></textarea>
+        <br>
+        <label class="form-label">Image Link</label>
+        <input class="price-tab" id="image" name="image" type="text">
+        <br>
+        <label class="form-label">Price</label>
+        <input class="price-tab" type="text" id="price" name="price">
+        <br>
+        <button id="submit-style" type="Submit">Submit</button>
+    </div>
+</form>
+</div>
+
+<%-include('../partials/footer.ejs')%>

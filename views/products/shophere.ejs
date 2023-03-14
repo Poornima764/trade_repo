@@ -1,0 +1,31 @@
+<%-include('../partials/header.ejs')%>
+
+    <div id="trades-content">
+        <div class="trades-main-content">
+                    <% if(products.length) {%>
+                        <h2 class="content-headings">Shop the Running Shoes collection</h2>
+                        <% products.forEach(product =>{%>
+                            <!-- <a href="/products/<%= product.id %>"><%= product.title %></a>
+                            </br> -->
+                            <div class="card">
+                                <img src='<%=product.image%>' alt='<%= product.title%>'/>
+                                <div class="productdata">
+                                    <a href="/products/<%= product.id %>"><b><%= product.title %></b></a>
+                                    </br>
+                                    </br>
+                                    <h3>Price: <%= product.price %> $</h3>
+                                    </br>
+                                    <p><%=product.product_description %></p>
+
+                                </div>
+                            </div>
+                        <%});
+                    }else{ %>
+                        <p>there are no products to display</p>
+                <% }%>       
+        </div>
+    </div>
+</br>
+
+<%-include('../partials/footer.ejs')%>
+

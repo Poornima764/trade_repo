@@ -1,0 +1,25 @@
+<%-include('../partials/header.ejs')%>
+<div id="trades-content">
+    <h2><%= product.title %></h2>
+    <div id="shoeinfo-para">
+        <img id="image-style" src="<%= product.image %>" width="125" height="125">
+        <p id="shoe-content"> <%= product.product_description %></p>
+    </div>
+    <p id="price-style"> Price : <%= product.price %> $</p>
+    <br>
+    <label class="shoes-size">Select your size :</label>
+    <select id="id" name="name" required>
+        <option value="">Select</option>
+        <option value="1"><%= product.size[0]%></option>
+        <option value="2"><%= product.size[1]%></option>
+        <option value="3"><%= product.size[2]%></option>
+        <option value="4"><%= product.size[3]%></option>
+    </select>
+    <br>
+    <button id="addtocart">Add to Cart</button>
+    <form >
+        <button id="addtocart" type="submit" formmethod="GET" formaction="/products/<%= product.id%>/edit">Edit</button>
+        <button id="addtocart" type="submit" formmethod="POST" formaction="/products/<%= product.id%>?_method=DELETE">Delete</button>
+    </form>
+</div>
+<%-include('../partials/footer.ejs')%>
